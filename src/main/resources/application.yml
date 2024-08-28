@@ -5,7 +5,7 @@ spring:
   application:
     name: discovery-service
 
-# discovery service? ??? client? ???? ??? ??
+# discovery service기 때문에 client로 등록되지 않도록 설정
 eureka:
   client:
     register-with-eureka: false
